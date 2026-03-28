@@ -1,0 +1,48 @@
+<!DOCTYPE html><html>
+<head>
+  <title>Just a Few Questions 😏💖</title>  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      text-align: center;
+      width: 280px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 10px;
+      background: #ff6f91;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ff3f6c;
+    }
+  </style></head><body><div class="box">
+  <h2 id="question">Do you like me? 😏</h2><button onclick="answerYes()">Yes 💕</button>
+<button onclick="answerNo()">No 🙈</button>
+
+</div><script>
+  function answerYes() {
+    document.getElementById("question").innerText = "I knew it 😌💖";
+  }
+
+  function answerNo() {
+    document.getElementById("question").innerText = "Hmm... try again 😏";
+  }
+</script></body>
+</html>
